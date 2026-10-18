@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "agent-utils-swarm"
+version = "0.1.0"
+description = "Thin client for the agent_utils Swarm MCP server — memory, locks, task board, pub/sub, idempotency and webhook inboxes for AI agents. One account spans both agent_utils servers."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{ name = "AI Cortex LLC" }]
+keywords = ["mcp", "model-context-protocol", "ai-agents", "agent-memory", "distributed-locks", "task-queue", "pubsub", "idempotency", "webhooks", "multi-agent", "claude", "agent-utils"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://agent-utils.ai"
+Repository = "https://github.com/agent-utils/agent-utils-swarm-py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/agent_utils"]
