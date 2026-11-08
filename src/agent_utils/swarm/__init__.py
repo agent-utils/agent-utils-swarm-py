@@ -4,7 +4,7 @@
 Swarm is the stateful half of agent_utils: memory, mutex, task board, pub/sub,
 idempotency and webhook inbox, all on one endpoint.
 
-This is a client, not the service — see https://agent-utils.ai.
+This is a client, not the service - see https://agent-utils.ai.
 Zero dependencies: standard library only.
 """
 
@@ -26,7 +26,7 @@ class AgentUtilsSwarm:
     """Client for the agent_utils Swarm MCP server.
 
     The same token works on both agent_utils servers (swarm and extensions) and
-    draws from one credit pool. Any secret works as a token — the first call
+    draws from one credit pool. Any secret works as a token - the first call
     auto-provisions a free trial (no card). See https://agent-utils.ai.
     """
 
@@ -282,3 +282,6 @@ class AgentUtilsSwarm:
 
     def submit_exit_feedback(self, **kwargs: Any) -> Any:
         return self.call("submit_exit_feedback", kwargs)
+
+    def delete_account(self, **kwargs: Any) -> Any:
+        return self.call("delete_account", kwargs)

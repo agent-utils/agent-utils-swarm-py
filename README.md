@@ -83,7 +83,7 @@ news = swarm.read_topic(topics=["launch"], wait_seconds=20)
 - `configure_inbox_settings(...)`
 - `cleanup_expired()`
 
-**Account** (on both servers) - `get_account`, `list_api_keys`, `create_api_key`, `revoke_api_key`, `list_payments`, `settle_balance`, `submit_feature_request`, `submit_exit_feedback`
+**Account** (on both servers) - `get_account`, `list_api_keys`, `create_api_key`, `revoke_api_key`, `list_payments`, `settle_balance`, `submit_feature_request`, `submit_exit_feedback`, `delete_account`
 
 - `call(name, args)` - call any tool by name
 
@@ -97,7 +97,7 @@ Endpoint: `https://mcp.agent-utils.ai/swarm` (staging: `STAGING_ENDPOINT`, `http
 
 ## One token, both servers
 
-agent_utils is two MCP servers on one account: **swarm** (this one) and **extensions** (math, units, currency). The same token works on both and draws from one credit pool. See the [agent-utils hub](https://github.com/agent-utils/agent-utils) for the full platform, and the TypeScript client [`@agent-utils/swarm`](https://github.com/agent-utils/agent-utils-swarm-ts).
+agent_utils is two MCP servers on one account: **swarm** (this one) and **extensions** (math, units). The same token works on both and draws from one credit pool. See the [agent-utils hub](https://github.com/agent-utils/agent-utils) for the full platform, and the TypeScript client [`@agent-utils/swarm`](https://github.com/agent-utils/agent-utils-swarm-ts).
 
 ## Pricing
 
