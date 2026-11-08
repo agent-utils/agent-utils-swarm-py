@@ -103,6 +103,10 @@ agent_utils is two MCP servers on one account: **swarm** (this one) and **extens
 
 1 credit = $0.00001. Trial: 1,000 credits, no card. Activation: $5 -> 500,000-credit limit. Terms: [mcp.agent-utils.ai/legal.txt](https://mcp.agent-utils.ai/legal.txt).
 
+## Contact
+
+Questions, bugs or account issues: support@agent-utils.ai
+
 ## License
 
 MIT. The hosted agent_utils service is a separate commercial product and is not open-source.

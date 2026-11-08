@@ -9,7 +9,7 @@ description = "Thin client for the agent_utils Swarm MCP server - memory, locks,
 readme = "README.md"
 requires-python = ">=3.10"
 license = "MIT"
-authors = [{ name = "AI Cortex LLC" }]
+authors = [{ name = "AI Cortex LLC", email = "support@agent-utils.ai" }]
 keywords = ["mcp", "model-context-protocol", "ai-agents", "agent-memory", "distributed-locks", "task-queue", "pubsub", "idempotency", "webhooks", "multi-agent", "claude", "agent-utils"]
 classifiers = [
     "Development Status :: 4 - Beta",
