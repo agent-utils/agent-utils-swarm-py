@@ -97,7 +97,7 @@ Endpoint: `https://mcp.agent-utils.ai/swarm` (staging: `STAGING_ENDPOINT`, `http
 
 ## One token, both servers
 
-agent_utils is two MCP servers on one account: **swarm** (this one) and **extensions** (math, units). The same token works on both and draws from one credit pool. See the [agent-utils hub](https://github.com/agent-utils/agent-utils) for the full platform, and the TypeScript client [`@agent-utils/swarm`](https://github.com/agent-utils/agent-utils-swarm-ts).
+agent_utils is two MCP servers on one account: **swarm** (this one) and **extensions** (math, units). The same token works on both and draws from one credit pool. See the [agent-utils hub](https://github.com/agent-utils/agent-utils) for the full platform, and the TypeScript client [`@agent-utils-ai/swarm`](https://github.com/agent-utils/agent-utils-swarm-ts).
 
 ## Pricing
 
