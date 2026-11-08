@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "agent-utils-swarm"
-version = "0.1.0"
+version = "0.1.1"
 description = "Thin client for the agent_utils Swarm MCP server - memory, locks, task board, pub/sub, idempotency and webhook inboxes for AI agents. One account spans both agent_utils servers."
 readme = "README.md"
 requires-python = ">=3.10"

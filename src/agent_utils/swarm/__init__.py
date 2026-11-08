@@ -17,7 +17,7 @@ from typing import Any
 
 DEFAULT_ENDPOINT = "https://mcp.agent-utils.ai/swarm"
 STAGING_ENDPOINT = "https://mcp-staging.agent-utils.ai/swarm"
-USER_AGENT = "agent-utils-swarm-py/0.1.0"
+USER_AGENT = "agent-utils-swarm-py/0.1.1"
 
 __all__ = ["AgentUtilsSwarm", "DEFAULT_ENDPOINT", "STAGING_ENDPOINT"]
 
